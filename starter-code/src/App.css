@@ -11,6 +11,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
+  padding-bottom: 50px;
   color: white;
 }
 
@@ -22,7 +23,19 @@
   font-size: large;
 }
 
+.btnPanel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+table { 
+  margin: 0 auto;
 }
